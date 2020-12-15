@@ -1,5 +1,5 @@
 # Auto-grading of handwritten mathematical worksheets
-This repo is the part of internship project with Bosch/RBEI-EDS2.
+This repo is the part of Final year project
 Aim of this project is to digitize the steps of solving a mathematical equation written by freehand on a paper, validating the steps and final answer of the recognized handwritten lines by maintaining the context.
 
 ## Workflow
@@ -37,13 +37,3 @@ Each line is corrected separately
 | 2      | 56 * 7 + 92 | 595 | 484 | Incorrect |
 | 3      | 595 + 92 | 595 | 687 | Incorrect |
 | 4      | 595 | 595 | 595 | Correct |
-
-
-For more detailed description on the workflow see [Report.pdf](Report.pdf)
-
-## To evaluate and test
-[Example_worksheet.ipynb](https://github.com/divyaprabha123/Autograding-handwritten-mathematical-worksheets/blob/master/Example_worksheet.ipynb)
-
-
-## Character Recognition
-Use this [link](https://drive.google.com/uc?id=1OTeIZTsx8VK3tiEI4VsRpZPsECxz5uVF) to download the [DCCNN](https://github.com/titu1994/Deep-Columnar-Convolutional-Neural-Network) model for OCR part of the analysis pipeline 
